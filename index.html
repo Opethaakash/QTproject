@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Optimal Assignment Problem</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Optimal Assignment Problem</h1>
+	<table id="assignmentTable">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Worker 1</th>
+				<th>Worker 2</th>
+				<th>Worker 3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Task 1</td>
+				<td><input type="number" class="cell" data-row="1" data-col="1"></td>
+				<td><input type="number" class="cell" data-row="1" data-col="2"></td>
+				<td><input type="number" class="cell" data-row="1" data-col="3"></td>
+			</tr>
+			<tr>
+				<td>Task 2</td>
+				<td><input type="number" class="cell" data-row="2" data-col="1"></td>
+				<td><input type="number" class="cell" data-row="2" data-col="2"></td>
+				<td><input type="number" class="cell" data-row="2" data-col="3"></td>
+			</tr>
+			<tr>
+				<td>Task 3</td>
+				<td><input type="number" class="cell" data-row="3" data-col="1"></td>
+				<td><input type="number" class="cell" data-row="3" data-col="2"></td>
+				<td><input type="number" class="cell" data-row="3" data-col="3"></td>
+			</tr>
+		</tbody>
+	</table>
+	<button id="calculate">Calculate Optimal Assignment</button>
+	<p id="result"></p>
+	<script src="script.js"></script>
+</body>
+</html>

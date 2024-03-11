@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #dddddd;
+	padding: 12px;
+	text-align: left;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+input[type=number] {
+	width: 50px;
+	padding: 5px;
+	margin: 5px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#result {
+	margin-top: 20px;
+	font-weight: bold;
+}
